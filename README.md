@@ -1,7 +1,5 @@
 # Arm-control
-واجهة تحكم بذراع الروبوت
-*(in html and css languages)*
-انشأت واجة مستخدم
-بداخلها 6 سلايد للمحركات وكل محرك يتحرك بزاوية 180 كحد أقصى
-وأيضاً أضفت زر حفظ وزر تشغيل لحفظ البيانات بقاعدة البيانات عند ادخالها. 
-وانشأت قاعدة بيانات مكونة من جدول واحد يحتوي على 6 اعمدة للمحركات وعمودين لزر الحفظ والتشقيل
+I created a user interface in (html and css languages) that contains 6 slides for motors,each motor moves at a maximum angle of 180.
+I ceated a run button and save button to save the data entered in the database.
+I created a database that contains one table called "motor" with 8 columns inside 6 of them are for the motors ,2 of them are for run and save buttons.
+
