@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Robot Arm</title>
+        <link rel="stylesheet" href="./css/style.css"> 
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align: center;color: rgb(102, 112, 131);font-family: 'Lucida Console', Courier, monospace;" >Robot Control Panel</h1>
+        </header>
+        
+            
+            <div class="slider1">
+
+              <h3 style= "color:#ac0000; font-family: 'Courier New', Courier, monospace;"  > M1</h3> 
+              
+              <input type="range" value="0" max="180" min="0" oninput="mada.innerText = this.value">
+              <p id="mada">0</p>
+               
+          </div>
+        
+            
+            <div class="slider2">
+
+              <h3 style= "color:#ce8e05; font-family: 'Courier New', Courier, monospace;">M2</h3> 
+              
+              <input type="range" value="0" max="180" min="0" oninput="maa.innerText = this.value">
+              <p id="maa">0</p>
+               
+          </div>
+        
+        <div class="slider3">
+
+            <h3  style= "color:#cecb05; font-family: 'Courier New', Courier, monospace;">M3</h3>
+            <input type="range" value="0" max="180" min="0" oninput="rangeValue3.innerText = this.value">
+            <p id="rangeValue3">0</p>
+          </div>
+            
+        <div class="slider4">
+
+            <h3 style= "color:#5fce05; font-family: 'Courier New', Courier, monospace;">M4</h3>
+            <input type="range" value="0" max="180" min="0" oninput="mem.innerText = this.value">
+            <p id="mem">0</p>
+        </div>
+        <div class="slider5">
+
+            <h3  style= "color:#058ece; font-family: 'Courier New', Courier, monospace;">M5</h3>
+            <input type="range"value="0" max="180" min="0" oninput="aa.innerText = this.value">
+            <p id="aa">0</p>
+        </div>
+        <div class="slider6">
+
+            <h3 style= "color:#ad05ce; font-family: 'Courier New', Courier, monospace;">M6</h3>
+            <input type="range" value="0" max="180" min="0"oninput="mm.innerText = this.value">
+            <p id="mm">0</p>
+        </div>
+        
+        <div class="container">
+          
+              <button type="button"> Save </button>
+              <button type="button"> Run </button>
+          
+      </div>
+    
+      
+      
+        
+
+
+    </body>
+
+   
+
+
+
+</html>
+
