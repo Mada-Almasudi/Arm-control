@@ -3,30 +3,30 @@
     <head>
         <title> Robot Arm</title>
         <link rel="stylesheet" href="./css/style.css"> 
+        <style>
+             button{
+        	border:#f7f5a5;
+
+        	background-color: #f5f0b3;
+        }
+        </style>
     </head>
     <body>
         <header>
             <h1 style="text-align: center;color: rgb(102, 112, 131);font-family: 'Lucida Console', Courier, monospace;" >Robot Control Panel</h1>
         </header>
+        <hr>
         
-            
             <div class="slider1">
-
               <h3 style= "color:#ac0000; font-family: 'Courier New', Courier, monospace;"  > M1</h3> 
-              
               <input type="range" value="0" max="180" min="0" oninput="mada.innerText = this.value">
-              <p id="mada">0</p>
-               
+              <p id="mada">0</p>  
           </div>
-        
-            
+          
             <div class="slider2">
-
               <h3 style= "color:#ce8e05; font-family: 'Courier New', Courier, monospace;">M2</h3> 
-              
               <input type="range" value="0" max="180" min="0" oninput="maa.innerText = this.value">
               <p id="maa">0</p>
-               
           </div>
         
         <div class="slider3">
@@ -55,29 +55,31 @@
             <p id="mm">0</p>
         </div>
         
-        <div class="container">
-          
-              <button type="button"> Save </button>
-              <button type="button"> Run </button>
-      </div>
-<script>
-  window.watsonAssistantChatOptions = {
-      integrationID: "3dfacdb0-f12a-4d59-a995-cfa548d74279", // The ID of this integration.
-      region: "eu-gb", // The region your integration is hosted in.
-      serviceInstanceID: "3d9ad55e-6543-40c0-a5db-a0aa86202abe", // The ID of your service instance.
-      onLoad: function(instance) { instance.render(); }
-    };
-  setTimeout(function(){
-    const t=document.createElement('script');
-    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
-    document.head.appendChild(t);
-  });
-</script>
+        <p style="text-align: left;">
+            <button type="submit" name="Save" >Save</button>
+            </p>
+
+            <p style="text-align: left;">
+                <button type="submit" name="Run" >Run</button>
+                </p>
+   
+      
+      <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "3dfacdb0-f12a-4d59-a995-cfa548d74279", // The ID of this integration.
+            region: "eu-gb", // The region your integration is hosted in.
+            serviceInstanceID: "3d9ad55e-6543-40c0-a5db-a0aa86202abe", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+          };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+          document.head.appendChild(t);
+        });
+      </script>
     </body>
 
-   
-
-
-
 </html>
+
+
 
