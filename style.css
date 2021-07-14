@@ -6,11 +6,11 @@ body{
 
 .slider1 {
   position:absolute;
-  top:40%;
+  top:25%;
   left:50%;
   transform:translate(-50%,-50%);
-  width:250px;
-  height:30px;
+  width:200px;
+  height:20px;
   padding:20px;
   background:#f17e7e;
   border:1px solid hsl(0, 100%, 59%);
@@ -49,11 +49,11 @@ body{
 
 .slider2 {
   position:absolute;
-  top:55%;
+  top:37%;
   left:50%;
   transform:translate(-50%,-50%);
-  width:250px;
-  height:30px;
+  width:200px;
+  height:20px;
   padding:20px;
   background:#f1bf7e;
   border:1px solid hsl(32, 100%, 59%);
@@ -93,11 +93,11 @@ body{
 
 .slider3 {
   position:absolute;
-  top:70%;
+  top:49%;
   left:50%;
   transform:translate(-50%,-50%);
-  width:250px;
-  height:30px;
+  width:200px;
+  height:20px;
   padding:20px;
   background:#eff17e;
   border:1px solid hsl(54, 100%, 59%);
@@ -136,11 +136,11 @@ body{
 
 .slider4 {
   position:absolute;
-  top:85%;
+  top:61%;
   left:50%;
   transform:translate(-50%,-50%);
-  width:250px;
-  height:30px;
+  width:200px;
+  height:20px;
   padding:20px;
   background:#c5f17e;
   border:1px solid hsl(101, 100%, 59%);
@@ -179,11 +179,11 @@ body{
 
 .slider5 {
   position:absolute;
-  top:100%;
+  top:73%;
   left:50%;
   transform:translate(-50%,-50%);
-  width:250px;
-  height:30px;
+  width:200px;
+  height:20px;
   padding:20px;
   background:#7ee4f1;
   border:1px solid hsl(214, 100%, 59%);
@@ -223,11 +223,11 @@ body{
 
 .slider6 {
   position:absolute;
-  top:115%;
+  top:85%;
   left:50%;
   transform:translate(-50%,-50%);
-  width:250px;
-  height:30px;
+  width:200px;
+  height:20px;
   padding:20px;
   background:#de7ef1;
   border:1px solid hsl(288, 100%, 59%);
@@ -264,12 +264,8 @@ body{
   background:#e100ff;
 }
 
-.container
-{
-  position: absolute;
-  top: 100%;
-  left: 11%;
 
 
-}
+
+
 
